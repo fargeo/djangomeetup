@@ -18,31 +18,24 @@ class: impact
 ---
 <!-- Adam -->
 
-# Who Are We?
+# Farallon Geographics
 .row[
 .col-4[
 [<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
 ]
-.col-8[
-[Farallon Geographics](http://www.fargeo.com)
-]
-]
 
-.row[
-.col-4[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/adam-grayblend.jpg" alt="Adam Lodge" height="80px" style="float:right;margin-right:20px;">
 ]
-.col-8[
-Adam Lodge
-]
-]
+- Focus on Geospatial
+- Business Analysis/Needs Assessment
+- Web, Mobile, Desktop Solutions Developers
 
+## Today's Team
 .row[
 .col-4[
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="80px" style="float:right;margin-right:20px;">
 ]
 .col-8[
-Jeff Munowitch
+Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 ]
 ]
 
@@ -51,15 +44,15 @@ Jeff Munowitch
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="80px" style="float:right;margin-right:20px;">
 ]
 .col-8[
-Rob Gaston
+Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
 ]
 ]
+
+
+
 
 ---
 <!-- Adam -->
-# What we want you to learn from this talk
-
-- ???? FILL IN
 
 # What we want from this talk
 - Show off Arches
@@ -76,7 +69,7 @@ Fill in more
 
 ## What Arches Does
 
-"Arches is a custom platform that you can build applications on in the absence of custom coding"
+"Arches is a platform for building applications [without custom code]"
 
 Brief Backstory on problem to solve: Data Management with no set Data Model 
 
