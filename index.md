@@ -1,4 +1,4 @@
-title: Arches: A look under the hood of a platform that allows the deployment of custom apps without writing coding
+title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches Project" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing coding
 class: animation-fade
 layout: true
 
@@ -13,7 +13,7 @@ class: impact
 
 <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches Project" id="logo" data-height-percentage="10" data-actual-width="300" data-actual-height="67">
 ## a look under the hood of a platform that allows the deployment of custom apps without writing coding
-## Nov. 29, 2017 Django Meetup
+## Nov. 29, 2017, Django Meetup
 
 ---
 
