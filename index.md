@@ -16,11 +16,44 @@ class: impact
 ## Nov. 29, 2017, Django Meetup
 
 ---
-
 <!-- Adam -->
-# Who Are We?
 
-Fargeo link and presenters info:
+# Who Are We?
+.row[
+.col-4[
+[<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
+]
+.col-8[
+[Farallon Geographics](http://www.fargeo.com)
+]
+]
+
+.row[
+.col-4[
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/adam-grayblend.jpg" alt="Adam Lodge" height="80px" style="float:right;margin-right:20px;">
+]
+.col-8[
+Adam Lodge
+]
+]
+
+.row[
+.col-4[
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="80px" style="float:right;margin-right:20px;">
+]
+.col-8[
+Jeff Munowitch
+]
+]
+
+.row[
+.col-4[
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="80px" style="float:right;margin-right:20px;">
+]
+.col-8[
+Rob Gaston
+]
+]
 
 ---
 <!-- Adam -->
