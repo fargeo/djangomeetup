@@ -72,15 +72,20 @@ FILL IN IMAGES of all the tech
 
 ---
 <!-- Rob -->
-# Components of Arches
+# Arches in action
+As a business system, Arches has three main purposes:
 
-To solve the problem of data management without additional coding we created the following components of Arches:
-
-- Thesauri management (Add Demo or GIF)
-- Graph Development/Management (Add Demo or GIF)
-- Manage Business Data (Add Demo or GIF)
-- Search (Add Demo or GIF)
-- Reports (Add Demo or GIF)
+1. Data discovery and visualization
+    - Contextual search and visualization tools (strings, concepts, geospatial, temporal)
+    - Reports
+2. Data management
+    - dynamic forms for managing business data
+    - "Reference Data Manager" for managing shared thesauri
+    - "Arches designer" for creating custom schema and forms without coding
+3. Data integration and analysis
+    - "Map layer manager" for integrating mapping UI with GIS assets
+    - data export tools
+    - API and geospatial services
 
 ---
 <!-- Jeff -->
@@ -90,7 +95,3 @@ To solve the problem of data management without additional coding we created the
 - Containerization in Production/Development
 - Python 3/Django 2
 - ????
-
-
-
-
