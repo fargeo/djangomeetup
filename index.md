@@ -1,4 +1,4 @@
-title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches Project" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing coding
+title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing coding
 class: animation-fade
 layout: true
 
@@ -11,32 +11,19 @@ layout: true
 
 class: impact
 
-<img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches Project" id="logo" data-height-percentage="10" data-actual-width="300" data-actual-height="67">
+<img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" data-height-percentage="10" data-actual-width="300" data-actual-height="67">
 ## a look under the hood of a platform that allows the deployment of custom apps without writing coding
 ## Nov. 29, 2017, Django Meetup
 
 ---
 
-# Header
-
-## Subheader
-
-some text, and a list:
-
-- thing 1
-
-- thing 2
-
-- the cat in the hat
-
----
-
+<!-- Adam -->
 # Who Are We?
 
 Fargeo link and presenters info:
 
 ---
-
+<!-- Adam -->
 # What we want you to learn from this talk
 
 - ???? FILL IN
@@ -47,7 +34,7 @@ Fargeo link and presenters info:
 - Grow the Community by getting more people deploying, using, developing on and knowing about Arches
 
 ---
-
+<!-- Cyrus -->
 # What is Arches?
 
 Arches is an open-source, geospatially-enabled software platform for cultural heritage inventory and management, developed jointly by the Getty Conservation Institute and World Monuments Fund. 
@@ -60,11 +47,10 @@ Fill in more
 
 Brief Backstory on problem to solve: Data Management with no set Data Model 
 
-
 FILL IN INFO
 
 ---
-
+<!-- Ryan -->
 # How Arches Does it with Django
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
@@ -72,7 +58,7 @@ Django is a high-level Python Web framework that encourages rapid development an
 FILL IN INFO
 
 ---
-
+<!-- Jeff -->
 ## Full Technology Stack
 
 and where django fits in
@@ -85,7 +71,7 @@ Mapbox GL JS
 FILL IN IMAGES of all the tech
 
 ---
-
+<!-- Rob -->
 # Components of Arches
 
 To solve the problem of data management without additional coding we created the following components of Arches:
@@ -97,7 +83,7 @@ To solve the problem of data management without additional coding we created the
 - Reports (Add Demo or GIF)
 
 ---
-
+<!-- Jeff -->
 # Future Challenges
 
 - Ongoing Community Building

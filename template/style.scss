@@ -1,8 +1,8 @@
 // Theme
 // ---------------------------------------------------------------------------
 
-$primary          : #989898;
-$secondary        : #b33636;
+$primary          : #c4c4c4;
+$secondary        : #a61d21;
 $tertiary         : #e0b96e;
 $light            : #FFF;
 $dark             : #333;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 $margin 0;
   font-family: $font-title;
 }
-h1 { color: $primary; }
+h1 { color: $secondary; }
 h2 { color: $secondary; }
 h3 { color: $tertiary; }
 li { margin-bottom: .25em; };
@@ -78,7 +78,7 @@ blockquote {
 }
 
 .remark-slide-number {
-  color: $text-light;
+  color: lighten($text-dark, 15%);
   right: 1em;
   opacity: .6;
   font-size: 0.8em;
@@ -91,7 +91,7 @@ blockquote {
   background-color: $primary;
   vertical-align: middle;
   text-align: center;
-  &, h1, h2 { color: $text-light; }
+  &, h1, h2 { color: lighten($text-dark, 15%); }
   h1 { font-size: $font-size-impact; }
 }
 
@@ -108,7 +108,7 @@ blockquote {
 
 .bottom-bar {
   background-color: $primary;
-  color: $text-light;
+  color: lighten($text-dark, 15%);
   position: absolute;
   bottom: 0;
   left: 0;
