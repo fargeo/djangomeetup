@@ -1,4 +1,4 @@
-title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing coding
+title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing code
 class: animation-fade
 layout: true
 
@@ -12,7 +12,7 @@ layout: true
 class: impact
 
 <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" data-height-percentage="10" data-actual-width="300" data-actual-height="67">
-## a look under the hood of a platform that allows the deployment of custom apps without writing coding
+## a look under the hood of a platform that allows the deployment of custom apps without writing code
 ## Nov. 29, 2017, Django Meetup
 
 ---
@@ -43,7 +43,7 @@ Fill in more
 
 ## What Arches Does
 
-"Arches is a Custom Platform that you can build Applications on in the absence of Custom Coding"
+"Arches is a custom platform that you can build applications on in the absence of custom coding"
 
 Brief Backstory on problem to solve: Data Management with no set Data Model 
 
