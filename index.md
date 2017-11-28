@@ -18,12 +18,12 @@ class: impact
 ---
 <!-- Adam -->
 
-# Farallon Geographics
+## Farallon Geographics
 .row[
 .col-4[
 [<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
 ]
-.col-6[
+.col-8[
 - Focus on Geospatial
 - Business Analysis/Needs Assessment
 - Web, Mobile, Desktop Solutions Developers
@@ -33,13 +33,13 @@ class: impact
 ## Today's Team
 .row[
 .col-2[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="180px" style="float:right;margin-right:20px;">
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="170px" style="float:right;margin-right:20px;">
 ]
 .col-4.bio[
 Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 ]
 .col-2[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="180px" style="float:right;margin-right:20px;">
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="170px" style="float:right;margin-right:20px;">
 ]
 .col-4.bio[
 Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
@@ -77,6 +77,20 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 - Language localization
 
 ---
+<!-- Rob -->
+# Arches in action
+As a business system, Arches has three main purposes:
+
+1. Data discovery and visualization
+    <!-- - Contextual search and visualization tools (strings, concepts, geospatial, temporal) -->
+    <!-- - Reports -->
+2. Data management
+    <!-- - dynamic forms for managing business data -->
+    <!-- - "Reference Data Manager" for managing shared thesauri -->
+    <!-- - "Arches designer" for creating custom schema and forms without coding -->
+3. Data integration and analysis
+
+---
 <!-- Ryan -->
 # How Arches Does it with Django
 
@@ -96,23 +110,6 @@ Knockout/Backbone
 Mapbox GL JS
 
 FILL IN IMAGES of all the tech
-
----
-<!-- Rob -->
-# Arches in action
-As a business system, Arches has three main purposes:
-
-1. Data discovery and visualization
-    - Contextual search and visualization tools (strings, concepts, geospatial, temporal)
-    - Reports
-2. Data management
-    - dynamic forms for managing business data
-    - "Reference Data Manager" for managing shared thesauri
-    - "Arches designer" for creating custom schema and forms without coding
-3. Data integration and analysis
-    - "Map layer manager" for integrating mapping UI with GIS assets
-    - data export tools
-    - API and geospatial services
 
 ---
 <!-- Jeff -->
