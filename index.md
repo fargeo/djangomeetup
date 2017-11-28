@@ -96,7 +96,71 @@ As a business system, Arches has three main purposes:
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
 
-FILL IN INFO
+---
+## MVT Pattern
+
+[FILL IN TEXT]
+---
+## Migrations
+
+[FILL IN TEXT]
+---
+## Security
+
+- Arches uses Django security to authenticate users, and provide different levels of user permissions.
+
+- Permissions are managed in the Arches permissions manager and in the Django admin interface.
+
+- Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
+
+---
+<span style="font-size: 0.7em;">
+```
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'arches.app.utils.password_validation.NumericPasswordValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.SpecialCharacterValidator',
+        'OPTIONS': {
+            'special_characters': ('!','@','#',')','(','*','&','^','%','$'),
+        }
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.HasNumericCharacterValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.HasUpperAndLowerCaseValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.MinLengthValidator',
+        'OPTIONS': {
+            'min_length': 9,
+        }
+    },
+]
+```
+</span>
+
+
+---
+## Localization
+
+- MegaJ included localization to Arabic, but using .NET framework.
+
+- Arches developers can easily internationalize static content with Django.
+
+- Internationalization allows Arches to be instantly ready for localization.
+
+
+---
+## Project Paradigm
+
+- Arches itself designed to be customized. Not just the data model.
+
+- We created a command, inspired by Django, to deploy the framework of your own Arches project.
+
+- Allows implementors to create and modify their own templates without overwriting core Arches code.
 
 ---
 <!-- Jeff -->
