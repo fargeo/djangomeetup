@@ -18,31 +18,24 @@ class: impact
 ---
 <!-- Adam -->
 
-# Who Are We?
+# Farallon Geographics
 .row[
 .col-4[
 [<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
 ]
-.col-8[
-[Farallon Geographics](http://www.fargeo.com)
-]
-]
 
-.row[
-.col-4[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/adam-grayblend.jpg" alt="Adam Lodge" height="80px" style="float:right;margin-right:20px;">
 ]
-.col-8[
-Adam Lodge
-]
-]
+- Focus on Geospatial
+- Business Analysis/Needs Assessment
+- Web, Mobile, Desktop Solutions Developers
 
+## Today's Team
 .row[
 .col-4[
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="80px" style="float:right;margin-right:20px;">
 ]
 .col-8[
-Jeff Munowitch
+Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 ]
 ]
 
@@ -51,15 +44,15 @@ Jeff Munowitch
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="80px" style="float:right;margin-right:20px;">
 ]
 .col-8[
-Rob Gaston
+Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
 ]
 ]
+
+
+
 
 ---
 <!-- Adam -->
-# What we want you to learn from this talk
-
-- ???? FILL IN
 
 # What we want from this talk
 - Show off Arches
@@ -70,18 +63,20 @@ Rob Gaston
 <!-- Cyrus -->
 # What is Arches?
 
-Arches is an open-source, geospatially-enabled software platform
-Designed for cultural heritage inventory and management but applicable to other disciplines, developed jointly by the Getty Conservation Institute and World Monuments Fund.
+- Backstory: Data management with no set data model
+- A open-source (GNU AGPL) platform for building geospatial applications [without custom code]
+- Designed for cultural heritage inventory, but widely applicable to other use cases
+- Joint effort by Getty Conservation Institute and World Monuments Fund
 
-Fill in more
+---
+## What Arches Provides
 
-## What Arches Does
-
-"Arches is a custom platform that you can build applications on in the absence of custom coding"
-
-Brief Backstory on problem to solve: Data Management with no set Data Model
-
-FILL IN INFO
+- A UI to develop complex data models (graphs)
+- Search interface - keyword, numeric, boolean, temporal, geospatial, or combination thereof
+- A thesauri management interface (optionally using ontology standards)
+- Geospatial vector tile caching/services via TileStache
+- A means of extension through custom widgets and datatypes
+- Language localization
 
 ---
 <!-- Ryan -->
