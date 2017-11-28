@@ -63,17 +63,20 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 <!-- Cyrus -->
 # What is Arches?
 
-Arches is an open-source, geospatially-enabled software platform for cultural heritage inventory and management, developed jointly by the Getty Conservation Institute and World Monuments Fund. 
+- Backstory: Data management with no set data model
+- A open-source (GNU AGPL) platform for building geospatial applications [without custom code]
+- Designed for cultural heritage inventory, but widely applicable to other use cases
+- Joint effort by Getty Conservation Institute and World Monuments Fund
 
-Fill in more
+---
+## What Arches Provides
 
-## What Arches Does
-
-"Arches is a platform for building applications [without custom code]"
-
-Brief Backstory on problem to solve: Data Management with no set Data Model 
-
-FILL IN INFO
+- A UI to develop complex data models (graphs)
+- Search interface - keyword, numeric, boolean, temporal, geospatial, or combination thereof
+- A thesauri management interface (optionally using ontology standards)
+- Geospatial vector tile caching/services via TileStache
+- A means of extension through custom widgets and datatypes
+- Language localization
 
 ---
 <!-- Ryan -->
