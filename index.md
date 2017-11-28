@@ -23,27 +23,25 @@ class: impact
 .col-4[
 [<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
 ]
-
-]
+.col-6[
 - Focus on Geospatial
 - Business Analysis/Needs Assessment
 - Web, Mobile, Desktop Solutions Developers
+]
+]
 
 ## Today's Team
 .row[
-.col-4[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="80px" style="float:right;margin-right:20px;">
+.col-2[
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="180px" style="float:right;margin-right:20px;">
 ]
-.col-8[
+.col-4.bio[
 Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 ]
+.col-2[
+<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="180px" style="float:right;margin-right:20px;">
 ]
-
-.row[
-.col-4[
-<img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="80px" style="float:right;margin-right:20px;">
-]
-.col-8[
+.col-4.bio[
 Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
 ]
 ]
