@@ -180,14 +180,7 @@ AUTH_PASSWORD_VALIDATORS = [
 <!-- Jeff -->
 ## Full Technology Stack
 
-and where django fits in
-PostgreSQL/PostGIS
-ElasticSearch
-Django
-Knockout/Backbone
-Mapbox GL JS
-
-FILL IN IMAGES of all the tech
+<img src="img/archestechstack.png" alt="Mega Jordan" height="450px">
 
 ---
 
