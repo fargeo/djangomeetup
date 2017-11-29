@@ -59,19 +59,23 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 
 ---
 <!-- Cyrus -->
-# What is Arches?
+## What is Arches?
+<img src="img/megajordan.png" alt="Mega Jordan" height="450px" style="float:right; margin-left: 25px;">
 
-- Backstory: Data management with no set data model
-- A open-source (GNU AGPL) platform for building geospatial applications [without custom code]
-- Designed for cultural heritage inventory, but widely applicable to other use cases
-- Joint effort by Getty Conservation Institute and World Monuments Fund
+* Backstory
+  - Data management system adaptable to disparate cultural heritage datasets
+  - Funded by the Getty Conservation Institute and World Monuments Fund
+
+* Outcome
+  - An open-source platform for building geospatial applications
+  - Designed for cultural heritage, but widely applicable to other use cases
 
 ---
 ## What Arches Provides
 
-- A UI to develop complex data models (graphs)
+- A UI to develop graph data models
 - Search interface - keyword, numeric, boolean, temporal, geospatial, or combination thereof
-- A thesauri management interface (optionally using ontology standards)
+- An interface for editing domain lists
 - Geospatial vector tile caching/services via TileStache
 - A means of extension through custom widgets and datatypes
 - Language localization
