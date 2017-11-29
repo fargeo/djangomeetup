@@ -77,12 +77,17 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 
 ## What Arches Provides
 
-- A UI to develop graph data models
+- A user interface to develop graph data models
 - Search interface - keyword, numeric, boolean, temporal, and/or geospatial
-- An interface for editing domain lists
+- Shared Thesaurus Management
 - Geospatial vector tile caching/services via TileStache
 - A means of extension through custom widgets and datatypes
-- Language localization
+
+---
+<!-- Jeff -->
+## Full Technology Stack
+
+<img src="img/archestechstack.png" alt="Mega Jordan" height="450px">
 
 ---
 
@@ -107,24 +112,20 @@ As a business system, Arches has three main purposes:
 <!-- Ryan -->
 # How Arches Does it with Django
 
-Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
+- Standard MVT Pattern
+- Django ORM for Data Access
+- Class Based Views and Template Inheritance
+- Code first approach to data modeling using migrations
+- Language localization
+- Standard Django User Authentication with custom additions
+- Django Projects
 
----
-## MVT Pattern
-
-[FILL IN TEXT]
----
-## Migrations
-
-[FILL IN TEXT]
 ---
 ## Security
 
-- Arches uses Django security to authenticate users, and provide different levels of user permissions.
-
-- Permissions are managed in the Arches permissions manager and in the Django admin interface.
-
+- In Arches permissions are managed in the Arches Permissions Manager and in the Django admin interface.
 - Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
+- django-guardian to have per object permissions
 
 ---
 
@@ -177,10 +178,16 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 ---
-<!-- Jeff -->
-## Full Technology Stack
 
-<img src="img/archestechstack.png" alt="Mega Jordan" height="450px">
+## Lessons Learned
+
+.big[
+- Be careful with migrations:
+  - Do not call management commands 
+  - Name migration files appropriately
+- Keep up on dependency versions
+- Deployment struggles of potential implementors
+]
 
 ---
 
@@ -190,5 +197,6 @@ AUTH_PASSWORD_VALIDATORS = [
 - Ongoing Community Building
 - Containerization in Production/Development
 - Python 3/Django 2
-- Providing more off the shelf resource models, widgets etc. to aid adoption
+- Providing more off the shelf solutions
+  - Resource Models, Branches, Widgets, Functions,  etc. to aid adoption
 ]
