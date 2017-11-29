@@ -21,7 +21,7 @@ class: impact
 ## Farallon Geographics
 .row[
 .col-4[
-[<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" style="float:right;margin-right:20px;">](http://www.fargeo.com)
+[<img src="http://fargeo.com/cms/wp-content/uploads/2015/09/logo.png" alt="Farallon Geographics" height="80px" class="logo">](http://www.fargeo.com)
 ]
 .col-8[
 - Focus on Geospatial
@@ -35,51 +35,62 @@ class: impact
 .col-2[
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/jeff-gray.jpg" alt="Jeff Munowitch" height="170px" style="float:right;margin-right:20px;">
 ]
-.col-4.bio[
+.col-4.bio.big[
 Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 ]
 .col-2[
 <img src="http://fargeo.com/cms/wp-content/uploads/2015/12/rob-gray.jpg" alt="Rob Gaston" height="170px" style="float:right;margin-right:20px;">
 ]
-.col-4.bio[
+.col-4.bio.big[
 Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
 ]
 ]
 
 ---
-<!-- Adam -->
 
+<!-- Adam -->
 # What we want from this talk
+
+.big[
 - Show off Arches
 - Solicit Ideas and Technical Improvements
 - Grow the Community by getting more people deploying, using, developing on and knowing about Arches
+]
 
 ---
-<!-- Cyrus -->
+
 ## What is Arches?
+
 <img src="img/megajordan.png" alt="Mega Jordan" height="450px" style="float:right; margin-left: 25px;">
 
-* Backstory
+.small[
+- Backstory
   - Data management system adaptable to disparate cultural heritage datasets
   - Funded by the Getty Conservation Institute and World Monuments Fund
 
-* Outcome
+- Outcome
   - An open-source platform for building geospatial applications
   - Designed for cultural heritage, but widely applicable to other use cases
+]
 
 ---
+
 ## What Arches Provides
 
 - A UI to develop graph data models
-- Search interface - keyword, numeric, boolean, temporal, geospatial, or combination thereof
+- Search interface - keyword, numeric, boolean, temporal, and/or geospatial
 - An interface for editing domain lists
 - Geospatial vector tile caching/services via TileStache
 - A means of extension through custom widgets and datatypes
 - Language localization
 
 ---
+
 <!-- Rob -->
+
 # Arches in action
+
+.big[
 As a business system, Arches has three main purposes:
 
 1. Data discovery and visualization
@@ -90,6 +101,7 @@ As a business system, Arches has three main purposes:
     <!-- - "Reference Data Manager" for managing shared thesauri -->
     <!-- - "Arches designer" for creating custom schema and forms without coding -->
 3. Data integration and analysis
+]
 
 ---
 <!-- Ryan -->
