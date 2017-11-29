@@ -1,10 +1,10 @@
-title: <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing code
+title: Django Meetup - Arches
 class: animation-fade
 layout: true
 
 <!-- This slide will serve as the base layout for all your slides -->
 .bottom-bar[
-  {{title}}
+  <img src="https://www.archesproject.org/wp-content/uploads/2017/03/arches-logo-tm-only.svg" alt="Arches:" id="logo" width="86vw"> a look under the hood of a platform that allows the deployment of custom apps without writing code
 ]
 
 ---
@@ -45,9 +45,6 @@ Jeff Munowitch <!-- GIS Generalist, Web Developer -->
 Rob Gaston <!-- Master Front-end Developer, but really also quite good at everything else -->
 ]
 ]
-
-
-
 
 ---
 <!-- Adam -->
