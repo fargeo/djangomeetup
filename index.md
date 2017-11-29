@@ -127,8 +127,10 @@ Django is a high-level Python Web framework that encourages rapid development an
 - Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
 
 ---
-<span style="font-size: 0.7em;">
-```
+
+class: geojson
+
+```py
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'arches.app.utils.password_validation.NumericPasswordValidator',
@@ -153,7 +155,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 ```
-</span>
 
 
 ---
