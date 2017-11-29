@@ -156,25 +156,25 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 ```
 
-
 ---
+
 ## Localization
 
-- MegaJ included localization to Arabic, but using .NET framework.
-
-- Arches developers can easily internationalize static content with Django.
-
-- Internationalization allows Arches to be instantly ready for localization.
-
+.big[
+- MegaJ included localization to Arabic, but using .NET framework
+- Arches developers can easily internationalize static content with Django
+- Internationalization allows Arches to be instantly ready for localization
+]
 
 ---
+
 ## Project Paradigm
 
-- Arches itself designed to be customized. Not just the data model.
-
-- We created a command, inspired by Django, to deploy the framework of your own Arches project.
-
-- Allows implementors to create and modify their own templates without overwriting core Arches code.
+.big[
+- Arches itself designed to be customized - not just the data model
+- We created a command, inspired by Django, to deploy the framework of your own Arches project
+- Allows implementors to create and modify their app without overwriting core Arches code
+]
 
 ---
 <!-- Jeff -->
@@ -190,10 +190,12 @@ Mapbox GL JS
 FILL IN IMAGES of all the tech
 
 ---
-<!-- Jeff -->
+
 # Future Challenges
 
+.big[
 - Ongoing Community Building
 - Containerization in Production/Development
 - Python 3/Django 2
-- ????
+- Providing more off the shelf resource models, widgets etc. to aid adoption
+]
