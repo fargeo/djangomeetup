@@ -77,15 +77,17 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 
 ## What Arches Provides
 
+.big[
 - A user interface to develop graph data models
-- Search interface - keyword, numeric, boolean, temporal, and/or geospatial
-- Shared Thesaurus Management
+- Keyword, temporal, & geospatial search tools
+- Shared thesaurus management
 - Geospatial vector tile caching/services via TileStache
-- A means of extension through custom widgets and datatypes
+- A means of extension through custom widgets (forms & reports) and datatypes
+]
 
 ---
 <!-- Jeff -->
-## Full Technology Stack
+## Technology Stack
 
 <img src="img/archestechstack.png" alt="Mega Jordan" height="450px">
 
@@ -99,12 +101,7 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 As a business system, Arches has three main purposes:
 
 1. Data discovery and visualization
-    <!-- - Contextual search and visualization tools (strings, concepts, geospatial, temporal) -->
-    <!-- - Reports -->
 2. Data management
-    <!-- - dynamic forms for managing business data -->
-    <!-- - "Reference Data Manager" for managing shared thesauri -->
-    <!-- - "Arches designer" for creating custom schema and forms without coding -->
 3. Data integration and analysis
 ]
 
@@ -121,11 +118,14 @@ As a business system, Arches has three main purposes:
 - Django Projects
 
 ---
+
 ## Security
 
+.big[
 - In Arches permissions are managed in the Arches Permissions Manager and in the Django admin interface.
-- Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
 - django-guardian to have per object permissions
+- Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
+]
 
 ---
 
@@ -197,6 +197,6 @@ AUTH_PASSWORD_VALIDATORS = [
 - Ongoing Community Building
 - Containerization in Production/Development
 - Python 3/Django 2
-- Providing more off the shelf solutions
-  - Resource Models, Branches, Widgets, Functions,  etc. to aid adoption
+- Providing more off the shelf solutions to aid adoption
+  - Resource Models, Branches, Widgets, Functions, Datatypes, Reports etc.
 ]
