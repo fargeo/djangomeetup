@@ -56,19 +56,23 @@ Rob Gaston <!-- Master Front-end Developer, but really also quite good at everyt
 
 ---
 <!-- Cyrus -->
-# What is Arches?
+## What is Arches?
+<img src="img/megajordan.png" alt="Mega Jordan" height="450px" style="float:right; margin-left: 25px;">
 
-- Backstory: Data management with no set data model
-- A open-source (GNU AGPL) platform for building geospatial applications [without custom code]
-- Designed for cultural heritage inventory, but widely applicable to other use cases
-- Joint effort by Getty Conservation Institute and World Monuments Fund
+* Backstory
+  - Data management system adaptable to disparate cultural heritage datasets
+  - Funded by the Getty Conservation Institute and World Monuments Fund
+
+* Outcome
+  - An open-source platform for building geospatial applications
+  - Designed for cultural heritage, but widely applicable to other use cases
 
 ---
 ## What Arches Provides
 
-- A UI to develop complex data models (graphs)
+- A UI to develop graph data models
 - Search interface - keyword, numeric, boolean, temporal, geospatial, or combination thereof
-- A thesauri management interface (optionally using ontology standards)
+- An interface for editing domain lists
 - Geospatial vector tile caching/services via TileStache
 - A means of extension through custom widgets and datatypes
 - Language localization
@@ -93,7 +97,71 @@ As a business system, Arches has three main purposes:
 
 Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design
 
-FILL IN INFO
+---
+## MVT Pattern
+
+[FILL IN TEXT]
+---
+## Migrations
+
+[FILL IN TEXT]
+---
+## Security
+
+- Arches uses Django security to authenticate users, and provide different levels of user permissions.
+
+- Permissions are managed in the Arches permissions manager and in the Django admin interface.
+
+- Arches utilizes both Django-included and custom password validators. Extends default validators to use custom help text.
+
+---
+<span style="font-size: 0.7em;">
+```
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'arches.app.utils.password_validation.NumericPasswordValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.SpecialCharacterValidator',
+        'OPTIONS': {
+            'special_characters': ('!','@','#',')','(','*','&','^','%','$'),
+        }
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.HasNumericCharacterValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.HasUpperAndLowerCaseValidator',
+    },
+    {
+        'NAME': 'arches.app.utils.password_validation.MinLengthValidator',
+        'OPTIONS': {
+            'min_length': 9,
+        }
+    },
+]
+```
+</span>
+
+
+---
+## Localization
+
+- MegaJ included localization to Arabic, but using .NET framework.
+
+- Arches developers can easily internationalize static content with Django.
+
+- Internationalization allows Arches to be instantly ready for localization.
+
+
+---
+## Project Paradigm
+
+- Arches itself designed to be customized. Not just the data model.
+
+- We created a command, inspired by Django, to deploy the framework of your own Arches project.
+
+- Allows implementors to create and modify their own templates without overwriting core Arches code.
 
 ---
 <!-- Jeff -->
