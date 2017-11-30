@@ -200,3 +200,9 @@ AUTH_PASSWORD_VALIDATORS = [
 - Providing more off the shelf solutions to aid adoption
   - Resource Models, Branches, Widgets, Functions, Datatypes, Reports etc.
 ]
+
+---
+
+class: impact
+
+# Thanks! Questions?
